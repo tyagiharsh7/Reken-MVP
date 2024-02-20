@@ -17,6 +17,7 @@ const Homepage = () => {
                     autoPlay
                     loop
                     muted
+                    playsinline
                 >
                     <source src={homeBg} type="video/mp4" />
                 </video>
