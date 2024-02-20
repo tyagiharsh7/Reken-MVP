@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-blur {
+        backdrop-filter: blur(8px);
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    .bg-radial-gradient {
+        background: radial-gradient(circle, #001F3F, #001F3F, #000000);
+    }
+}
