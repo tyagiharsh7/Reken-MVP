@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import joinUsImage from "../images/reken-join-us.png";
 import rekenLogoLarge from "../images/reken-logo-lg.png";
 import deepFakeImage from "../images/deep-fake.png";
