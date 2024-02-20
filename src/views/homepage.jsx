@@ -13,10 +13,6 @@ const Homepage = () => {
         var bgvideo = document.getElementById("RekenHomeBgVideo");
         bgvideo.muted = true;
         bgvideo.play();
-
-        return () => {
-            bgvideo.pause();
-        };
     }, []);
 
     return (
@@ -28,7 +24,7 @@ const Homepage = () => {
                     autoPlay
                     loop
                     muted
-                    playsinline
+                    playsInline
                 >
                     <source src={homeBg} type="video/mp4" />
                 </video>
