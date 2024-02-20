@@ -9,10 +9,21 @@ import GlowButton from "../components/glowButton/GlowButton";
 import Footer from "../components/footer/Footer";
 
 const Homepage = () => {
+    useEffect(() => {
+        var bgvideo = document.getElementById("RekenHomeBgVideo");
+        bgvideo.muted = true;
+        bgvideo.play();
+
+        return () => {
+            bgvideo.pause();
+        };
+    }, []);
+
     return (
         <>
             <div className="relative h-screen flex flex-col justify-center items-center">
                 <video
+                    id="RekenHomeBgVideo"
                     className="object-cover w-screen h-screen absolute top-0 left-0 z-0"
                     autoPlay
                     loop
