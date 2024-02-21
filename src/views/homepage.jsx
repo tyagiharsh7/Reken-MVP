@@ -9,12 +9,6 @@ import GlowButton from "../components/glowButton/GlowButton";
 import Footer from "../components/footer/Footer";
 
 const Homepage = () => {
-    useEffect(() => {
-        var bgvideo = document.getElementById("RekenHomeBgVideo");
-        bgvideo.muted = true;
-        bgvideo.play();
-    }, []);
-
     return (
         <>
             <div className="relative h-screen flex flex-col justify-center items-center">
