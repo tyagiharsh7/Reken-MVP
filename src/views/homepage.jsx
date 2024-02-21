@@ -55,9 +55,9 @@ const Homepage = () => {
                 className="min-h-screen flex flex-col justify-center items-center bg-black"
                 id="defensive-ai-section"
             >
-                <div className="text-white p-4 md:p-8 md:pt-2 text-4xl md:text-7xl text-center">
+                <div className="text-white p-4 md:p-8 md:pt-2 text-4xl md:text-5xl text-center">
                     <div className="md:mt-4">Unleashing the Necessity of</div>
-                    <div className="mt-1 md:mt-5 font-bold">DEFENSIVE AI</div>
+                    <div className="mt-1 md:mt-3 font-bold">DEFENSIVE AI</div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6 bg-black p-8 pb-4 lg:p-32 lg:py-2">
@@ -71,7 +71,7 @@ const Homepage = () => {
 
                     <div className="items-center aspect-w-1 lg:aspect-w-2 aspect-h-1 rounded-3xl md:col-span-2 lg:col-span-2 sm:col-span-1 border glass">
                         <div className="gradient-border rounded-xl flex flex-col h-full justify-center">
-                            <div className="text-white text-xl md:text-2xl p-8 ">
+                            <div className="text-white text-lg md:text-xl p-8 ">
                                 <div>
                                     Purpose: We are building a new type of AI
                                     platform and products with the primary
@@ -100,7 +100,7 @@ const Homepage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-black p-8 pt-4 lg:p-32 lg:py-4">
                     <div className="items-center aspect-w-2 aspect-h-1 rounded-3xl border glass">
                         <div className="gradient-border rounded-xl flex flex-col h-full justify-center">
-                            <div className="text-white text-lg md:text-2xl p-8">
+                            <div className="text-white text-lg md:text-xl p-8">
                                 Generative AI scams are on the rise: 22% of
                                 companies hit by AI-powered fake accounts,
                                 rising to 27% in finance.
@@ -118,7 +118,7 @@ const Homepage = () => {
 
                     <div className="items-center aspect-w-2 aspect-h-1 rounded-3xl border glass">
                         <div className="gradient-border rounded-xl flex flex-col h-full justify-center">
-                            <div className="text-white text-lg md:text-2xl p-8">
+                            <div className="text-white text-lg md:text-xl p-8">
                                 AI scams target individuals with personalized,
                                 believable phishing attempts, raising success
                                 rates by 40%.
