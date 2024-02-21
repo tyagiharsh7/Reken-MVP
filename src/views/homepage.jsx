@@ -143,7 +143,7 @@ const Homepage = () => {
                         href="mailto:jobs@reken.ai"
                         className="border hover:bg-white hover:text-black hover:border-black text-white px-8 py-3 rounded-md shadow-md bg-slate-900"
                     >
-                        Mail us
+                        Contact Us
                     </a>
                 </div>
                 <div className="items-center justify-center hidden md:flex p-4 -mt-24">
